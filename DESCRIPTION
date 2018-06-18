@@ -1,0 +1,13 @@
+Package: simplifyhelper
+Type: Package
+Title: Helper package for functions in the simplifyit packageverse
+Version: 0.0.1
+Authors@R: person("Mayuresh", "Kinare", email = "mayuresh.kinare@gmail.com",
+  role = c("aut", "cre"))
+Maintainer: <mayuresh.kinare@gmail.com>
+Description: Helper functions to be used in simplifyit packageverse.
+License: MIT + file LICENSE
+LazyData: TRUE
+RoxygenNote: 6.0.1
+Imports: future, data.table, magrittr, dplyr, stringr, readr, purrr, rlang
+Suggests: testthat
